@@ -4,7 +4,7 @@ const path = require("path");
 const crypto = require("crypto");
 
 const PORT = process.env.PORT || 3000;
-const SECRET_PASSCODE = process.env.TRIP_PASSWORD || "바보";
+const SECRET_PASSCODE = process.env.TRIP_PASSWORD || "0112";
 const DB = path.join(__dirname, "data.json");
 
 const initial = {
